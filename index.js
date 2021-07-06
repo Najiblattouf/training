@@ -1,4 +1,4 @@
-fetch('https://najib-vlava.herokuapp.com/server')
+fetch('http://najib-vlava.herokuapp.com/server')
   .then(response => response.json())
   .then(json => {
 var services = document.getElementById('services')
